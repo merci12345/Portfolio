@@ -29,10 +29,11 @@
                 <a href="#contact">Contact</a>
             </nav>
         </header>
+       <main class="container-fluid mb-5 mt-5">
 
                 <!-- home section design-->
-                <section class="home" id="home">
-                    <div class="home-content">
+                <section class="home mb-5  row">
+                    <div class="home-content col-lg-6 col-md-6 col-sm-12">
                          <h3>Hello, It's Me</h3>
                          <h1>Chetkou Samuel</h1>
                          <h3>And I'm a <span class="typetext"></span></h3> 
@@ -47,19 +48,19 @@
                           </div>   
                           <a href="#" class="btn">Download CV</a>
                     </div>
-                    <div class="home-img">
+                    <div class="home-img col-lg-6 col-md-6 col-sm-12">
                         <img src="images/home.png" alt="">
                     </div>
                 </section>
 
                 <!-- menu a propos ou section a  propos-->
-                <section class="about" id="about">
-                    <div class="about-img">
+                <section class="about mt-5 mb-5 row " id="about">
+                    <div class="about-img home-img col-lg-6 col-md-6 col-sm-12 ">
                         <img src="images/home.png" alt="">
                     </div>
 
-                    <div class="about-content">
-                        <h2 class="heading">About <span> Me</span></h2>
+                    <div class="about-content pt-5 col-lg-6 col-md-6 col-sm-12">
+                        <h2 class="heading mt-5">About <span> Me</span></h2>
                         <h3>Frontend Developer!</h3>
                         <p>Lorem ipsum dolmpedit nostrum animi illum mollitia itaque reprhenderit
                             laudantium molestias, eum porro molestias respidiandas, amet ea alias corporis laburum nobis. </p>
@@ -69,8 +70,8 @@
                 </section>
 
                 <!-- Section service de la pages-->
-                <section class="services" id="services">
-                    <h2 class="heading">Our <span>Services</span></h2>
+                <section class="services row mt-5 mb-5" id="services">
+                    <h2 class="heading mt-5">Our <span>Services</span></h2>
                     <div class="services-container">
                         <div class="services-box">
                             <i class='bx bx-code-alt' ></i>
@@ -106,7 +107,7 @@
 
                 <!-- SECTION POUR MON PORTFOLIO-->
 
-                <section class="portfolio" id="portfolio">
+                <section class="portfolio mt-5 mb-5" id="portfolio">
                     <h2 class="heading">Latest <span> Project</span></h2>
                     
                     <div class="portfolio-container">
@@ -174,27 +175,30 @@
 
                 <!--section CONTACT-->
 
-                <section class="contact" id="contact">
+                <section class="contact mt-5 mb-5 container-lg container-fluid-sm justify-content-center" id="">
                     <h2 class="heading">Contact <span> Me</span></h2>
-                    <form action="#">
-                        <div class="input-box">
-                            <input type="text" placeholder="Full Name">
-                            <input type="email" placeholder="Email Address">
+                    <form class="row">
+                        <div class="input-box col-12">
+                           <p class="d-flex gap-4 justify-content-between">
+                                <input class="w-100" type="text" placeholder="Full Name">
+                                <input class="w-100" type="email" placeholder="Email Address">
+                            </p>
+                           <p class="d-flex gap-4 justify-content-between">
+                                <input class="w-100" type="text"  placeholder="Mobile Number">
+                                <input class="w-100" type="text"  placeholder="Email Subject">
+                            </p>
+                            <textarea class="col-12"  name="" id="" cols="30" rows="18" placeholder="Your Message"></textarea>
 
                          </div>
-
-                         <div class="input-box">
-                            <input type="number" placeholder="Mobile Number">
-                            <input type="text" placeholder="Email Subject">
-
-                         </div>
-                         <textarea name="" id="" cols="30" rows="18" placeholder="Your Message"></textarea>
-                         <input type="submit" value="Send Message" class="btn">
-                </form>
+                      
+                        <button type="button"  class="btn col-4 ms-auto me-auto">send Message</button>
+                       
+                    </form>
                 </section>
 
                 <!--FOOTER -->
 
+       </main>
                 <footer class="footer">
                     <div class="footer-text">
                         <p>Copyright © 2024 by Codehal | All Rights Reserved.</p>
